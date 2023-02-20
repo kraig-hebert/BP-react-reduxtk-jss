@@ -1,5 +1,8 @@
+import { useStyles } from './globalStyles';
+
 function App() {
-  return <div className="App"></div>;
+  useStyles();
+  return <div>Test</div>;
 }
 
 export default App;
